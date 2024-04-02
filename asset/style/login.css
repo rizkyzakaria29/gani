@@ -6,7 +6,7 @@ body, h1, h2, p, form, input {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #FFC0CB;
 }
 
 .container {
@@ -54,6 +54,6 @@ input[type="submit"]:hover {
 }
 
 .error-message {
-    color: red;
+    color: rgba(188, 186, 186, 0.927);
     margin-bottom: 10px;
 }

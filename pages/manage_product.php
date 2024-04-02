@@ -44,10 +44,11 @@ $products = $result->fetch_all(MYSQLI_ASSOC);
             <table class="table table-dark table-hover">
                 <tr>
                     <th>ID</th>
-                    <th>Product Name</th>
-                    <th>Product Price</th>
-                    <th>Last Updated</th>
-                    <th>Actions</th>
+                    <th>Nama Produk</th>
+                    <th>Harga Produk</th>
+                    <th>Terakhir Diperbarui</th>
+                    <th>Tindakan</th>
+            
                 </tr>
                 <?php foreach ($products as $row): ?>
                     <tr>

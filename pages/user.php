@@ -45,10 +45,10 @@ $user = $result->fetch_all(MYSQLI_ASSOC);
                     <tr>
                         <th>ID</th>
                         <th>Nama</th>
-                        <th>Created At</th>
-                        <th>Updated At</th>
-                        <th>Role</th>
-                        <th>Action</th>
+                        <th>Dibuat Pada Hari</th>
+                        <th>Terakhir Diperbarui</th>
+                        <th>Peran</th>
+                        <th>Tindakan</th>
                     </tr>
                     <?php foreach ($user as $row): ?>
                         <tr>

@@ -38,7 +38,7 @@ require_once('./db/DB_login.php');
 <style>
     body {
     font-family: 'Lato', sans-serif;;
-    background-color: #303134;
+    background-color: #FFC0CB;
     margin: 0;
     padding: 0;
     overflow: hidden;
